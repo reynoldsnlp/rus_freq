@@ -11,4 +11,6 @@ tok.freq['словами']
 lem = rus_freq.Sharoff_lem_freq()
 lem.freq['слово']
 # 957.14
+lem.ambig_freq['стать']
+# [(1659.89, '61', 'verb'), (6.28, '11761', 'noun')]
 ```
